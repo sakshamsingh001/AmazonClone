@@ -1,0 +1,309 @@
+*{
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+border: border-box;
+}
+border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.navbar{
+    background-color:black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box1 */
+.logo{
+    height: 70px;
+    width: 106px;
+    background-image: url(images/amazon5.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border: 2px;
+}
+/* box2 */
+
+.add{
+color: rgb(255, 255, 255);
+width: 89px;
+height: 70px;
+}
+.add1{
+font-size: smaller;
+    margin-left: 13px;
+}
+.add2{
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+}
+/* box3 */
+.select{
+    background-color: #E6E6E6;
+    width: 52px;
+    height: 45px;  
+}
+.select select{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+}
+.search input{
+    width: 100%;
+    height: 100%;
+
+}
+.Button{
+    height: 45px;    
+}
+.Button button{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(224, 224, 13, 0.954);
+}
+/* box4 */
+.lang{
+ display: flex;
+ background-color: black;
+ width: 74px;
+ height: 50px;
+ align-items: center;
+ align-content: center;
+
+}
+.country{
+    height: 18px;
+    width: 24px;
+    background-image: url(images/usa.jpg);
+    background-size: cover; 
+    
+}
+.opt select{
+    color: white;
+    background-color: black;
+  
+}
+/* box5 */
+.login{
+    width: 132px;
+    height: 50px;
+}
+.hey{
+    width: 71px;
+    height: 14px;
+    color: white;
+    font-size: smaller;
+}
+.acc select{
+    background-color: black;
+    color: white;
+}
+.B6{
+    width: 77px;
+    height: 50px;
+    color: white;
+}
+.return{
+font: white;
+}
+/* box6 */
+.cart{
+    width: 84px;
+    height: 50px;
+    color: white;
+    font: white;
+}
+.image {
+    width: 38px;
+    height: 26px;
+}
+.image i{
+  
+    font-size: 20px;
+}
+.cart{
+    display: flex;
+}
+/* PANNEL */
+.pannel{
+    width: 100%;
+    height: 39px;
+    background-color: #232f3e;
+    font: white;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.p1{
+    width: 59px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p2{
+    width: 143px;
+    height: 39px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.p3{
+    width: 160px;
+    height: 39px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4{
+    width: 100px;
+    height: 39px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p5{
+    width: 111px;
+    height: 39px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p6{
+    width: 72px;
+    height: 39px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* hero image */
+.bkimg{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/bigbackground.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.he1{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+   margin-bottom: 30px;
+   justify-content: center;
+ 
+}
+.he1 a{
+    color: blue;
+    text-decoration: none;
+}
+.cardsr1{
+    display: flex;
+}
+/* card1 */
+.card1{
+    width: 25%;
+    height: 305px; 
+}
+.card1 p{
+    display: inline;
+}
+.card1 h3{
+ display: inline;
+
+}
+.ci1{
+    width: 180px;
+    height: 115px;
+    background-image: url(images/HEADphones.jpg);
+    background-size: cover;
+}
+.ci2{
+    width: 180px;
+    height: 115px;
+    background-image: url(images/mouse.jpg);
+    background-size: cover;
+}
+/* card2 */
+.card2{
+    width: 25%;
+    height: 305px; 
+}
+.card2 p{
+    display: inline;
+}
+.card2 h3{
+ display: inline;
+
+}
+.ci3{
+    width: 180px;
+    height: 115px;
+    background-image: url(images/flask.jpg);
+    background-size: cover;
+}
+.ci4{
+    width: 180px;
+    height: 115px;
+    background-image: url(images/kitchen.jpg);
+    background-size: cover;
+}
+/* card 3 */
+.card3{
+    width: 25%;
+    height: 305px; 
+}
+.ci5{
+    width: 280px;
+    height: 265px;
+    background-image: url(images/hardware.jpg);
+    background-size: cover;
+}
+/* card4 */
+.card4{
+    width: 25%;
+    height: 305px; 
+}
+.ci6{
+    width: 280px;
+    height: 172px;
+    background-image: url(images/smart.jpg);
+    background-size: cover;
+}
+.ci7{
+    width: 93.6px;
+    height: 75px;
+    background-image: url(images/tablets.jpg);
+    background-size: cover;
+    
+}
+
+.outer
+{
+    display: inline;
+}
+p{
+    display: inline;
+}
+
+
+
+
+
+
+
